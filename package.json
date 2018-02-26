@@ -1,0 +1,28 @@
+{
+  "name": "dog-friend-finder",
+  "version": "1.0.0",
+  "description": "survey to help dogs find playmates",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "install": "^0.10.4",
+    "npm": "^5.6.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hillary-joyce/dog-friend-finder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hillary-joyce/dog-friend-finder/issues"
+  },
+  "homepage": "https://github.com/hillary-joyce/dog-friend-finder#readme"
+}
