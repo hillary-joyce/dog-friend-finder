@@ -37,11 +37,9 @@ module.exports = function(app) {
 
     }
     //Display friend result as a modal popup
-
     //Then add the new dog to the dogArray
     dogArray.push(req.body);
     res.json(currentBestMatch);
 
-    console.log(parseInt(req.body.scores[2]));
   })
 }
