@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 var app = express();
 
 //Set initial port
-var PORT = 3002;
+var PORT = process.env.PORT || 8080;
 
 //set up express app to handle data parsing
 //use body-parser npm
