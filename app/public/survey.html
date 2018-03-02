@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dog Friend Finder | Survey</title>
   <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="assets/css/skeleton.css">
@@ -12,19 +13,16 @@
 
 <body>
   <div class="container page-header">
-  <div class="row">
-    <div class="two columns"> <img class="dog-img" src="assets/images/dog-3.png" alt="dog vector image 3"></div>
-    <div class="ten columns"><h1 class="page-title">Dog Friend Finder</h1></div>
-  </div>
+    <div><img class="dog-img" src="assets/images/dog-3.png" alt="dog vector image 3"><h1 class="page-title">Dog Friend Finder</h1></div>
     <div class="container form-container">
     <form class="dog-form">
+      <label for="dogName">Dog Name: </label>
+      <input class="u-full-width" type="text" name="dogName" id="dogName" required>
+
+      <label for="dogImg">Link to image: </label>
+      <input class="u-full-width" type="text" name="dogImg" id="dogImg" required>
+
       <p>Answer each question below about your pup on a scale of 1-5</p>
-        <label for="dogName">Dog Name: </label>
-        <input class="u-full-width" type="text" name="dogName" id="dogName" required>
-
-        <label for="dogImg">Link to image: </label>
-        <input class="u-full-width" type="text" name="dogImg" id="dogImg" required>
-
 
       <label for="question-1">1. I make new friends easily, and love playing with other dogs</label>
       <select id="one">
@@ -130,8 +128,6 @@
     </div>
   </div>
 
-  <a href='/friends'>Dog API</a>
-
   <!--JAVASCRIPT -->
   <!--JQuery -->
 
@@ -173,6 +169,9 @@
       $("#results").attr("style", "display: none");
     })
   </script>
+<footer>
+  <p>Dog pictures <a href='https://www.freepik.com/free-vector/cute-dog-breeds_803197.htm'>Designed by Freepik</a></p>
+</footer>
 </body>
 
 </html>

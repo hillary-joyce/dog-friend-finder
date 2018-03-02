@@ -2,6 +2,7 @@ body {
   background: #5ea39e;
   text-align: center;
   color: white;
+  font-weight: 200;
 }
 
 h1 {
@@ -14,6 +15,15 @@ h3 {
   font-weight: 100;
   font-style: italic;
 }
+
+a {
+  color: white;
+}
+
+a:hover {
+  color:#b5cecd;
+}
+
 .dog-img {
   height: 20vh;
   margin: 0 auto;
@@ -36,6 +46,9 @@ button:hover {
 
 }
 
+footer {
+  margin-top: 40px;
+}
 /******************* Survey Page ***********************/
 .page-header {
   height: 30vh;
@@ -43,9 +56,12 @@ button:hover {
 
 .page-title {
   font-size: 9rem;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
+.page-header img {
+  display: inline-block;
+}
 
 .form-container {
   width: 75%;
@@ -54,6 +70,11 @@ button:hover {
   background: white;
   color: black;
 }
+
+.dog-form {
+  font-size: 1.2em;
+}
+
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -84,10 +105,10 @@ input[type="text"], textarea, select, #matchName {
 }
 
 #matchImg {
-  height: 70rem;
+  width: 55vw;
 }
 
-.closeButton {
+.closeButton, .submit {
   border-color: #5ea39e;
   color: #5ea39e;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -96,10 +117,50 @@ input[type="text"], textarea, select, #matchName {
   margin: 0 auto;
 }
 
-.closeButton: hover {
+.closeButton:hover, .submit:hover {
   border-color: #5ea39e;
   color: #5ea39e;
   border-width: 5px;
-  font-weight: 400;
-  background-color: none;
+  font-weight: 500;
+  background: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/*************** MEDIA QUERIES *****************/
+@media (max-width: 420px) {
+  .page-header .dog-img {
+    height: 10vh;
+    margin: 0 auto;
+  }
+  .page-title {
+    font-size: 6rem;
+    padding-top: 0px;
+  }
+  .form-container {
+    width: 100%;
+    padding: 30px;
+  }
+  button {
+    width: 55vw;
+    padding: 0;
+  }
+
+  .dog-1, .dog-2, .dog-7, .dog-8 {
+    display: none;
+  }
+  .three {
+    width: 44vw;
+    margin: 0;
+  }
+  h1 {
+    font-size: 5.3em;
+  }
+  .home-text h3 {
+    font-size: 2.15em;
+  }
+  .modal-content{
+    font-size: 2em;
+  }
+
 }
