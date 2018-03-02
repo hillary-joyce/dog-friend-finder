@@ -1,0 +1,105 @@
+body {
+  background: #5ea39e;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-family: 'Lobster Two', cursive;
+  font-size: 25vh;
+}
+
+h3 {
+  font-size: 8vh;
+  font-weight: 100;
+  font-style: italic;
+}
+.dog-img {
+  height: 20vh;
+  margin: 0 auto;
+}
+
+button {
+  border: 3px solid white;
+  width: 20vw;
+  height: 8vh;
+  color: white;
+  font-size: 3vh;
+  font-weight: 300;
+}
+
+button:hover {
+  border: 5px solid white;
+  background: #447774;
+  color: white;
+  font-weight: 400;
+
+}
+
+/******************* Survey Page ***********************/
+.page-header {
+  height: 30vh;
+}
+
+.page-title {
+  font-size: 9rem;
+  padding-top: 20px;
+}
+
+
+.form-container {
+  width: 75%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  background: white;
+  color: black;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto 0 auto; /* 15% from the top and centered */
+    padding: 5px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    color: black;
+    font-family: 'Lobster Two', cursive;
+    font-size: 5rem;
+}
+
+input[type="text"], textarea, select, #matchName {
+  color: black;
+}
+
+#matchImg {
+  height: 70rem;
+}
+
+.closeButton {
+  border-color: #5ea39e;
+  color: #5ea39e;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  display: block;
+  margin: 0 auto;
+}
+
+.closeButton: hover {
+  border-color: #5ea39e;
+  color: #5ea39e;
+  border-width: 5px;
+  font-weight: 400;
+  background-color: none;
+}

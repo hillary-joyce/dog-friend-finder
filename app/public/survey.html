@@ -6,118 +6,129 @@
   <title>Dog Friend Finder | Survey</title>
   <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="assets/css/skeleton.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
 </head>
 
 <body>
-  <div class="container">
-  <h1>Dog Friend Finder</h1>
-  <h3>Survey</h3>
-  <p>Answer each question below about your pup on a scale of 1-5</p>
-
+  <div class="container page-header">
+  <div class="row">
+    <div class="two columns"> <img class="dog-img" src="assets/images/dog-3.png" alt="dog vector image 3"></div>
+    <div class="ten columns"><h1 class="page-title">Dog Friend Finder</h1></div>
+  </div>
+    <div class="container form-container">
     <form class="dog-form">
-      <div class="six columns">
+      <p>Answer each question below about your pup on a scale of 1-5</p>
         <label for="dogName">Dog Name: </label>
         <input class="u-full-width" type="text" name="dogName" id="dogName" required>
-      </div>
-      <div class="six columns">
+
         <label for="dogImg">Link to image: </label>
         <input class="u-full-width" type="text" name="dogImg" id="dogImg" required>
-      </div>
 
-      <label for="question-1">Question 1: I make new friends easily, and love playing with other dogs</label>
+
+      <label for="question-1">1. I make new friends easily, and love playing with other dogs</label>
       <select id="one">
-       <option value="1"> 1 </option>
+       <option value="1"> 1 (Strongly Disagree)</option>
        <option value="2"> 2 </option>
        <option value="3"> 3 </option>
        <option value="4"> 4 </option>
-       <option value="5"> 5 </option>
+       <option value="5"> 5 (Strongly Agree)</option>
       </select>
       <br>
-      <label for="question-2">Question 2: I tend to be shy or scared in new situations</label>
+      <label for="question-2">2. I tend to be shy or scared in new situations</label>
       <select id="two">
-        <option value="1"> 1 </option>
+        <option value="1"> 1 (Strongly Disagree)</option>
         <option value="2"> 2 </option>
         <option value="3"> 3 </option>
         <option value="4"> 4 </option>
-        <option value="5"> 5 </option>
+        <option value="5"> 5 (Strongly Agree)</option>
       </select>
       <br>
-      <label>Question 3: I am relaxed when meeting new dogs or people</label>
+      <label>3. I am relaxed when meeting new dogs or people</label>
       <select id="three">
-        <option value="1"> 1 </option>
+        <option value="1"> 1 (Strongly Disagree)</option>
         <option value="2"> 2 </option>
         <option value="3"> 3 </option>
         <option value="4"> 4 </option>
-        <option value="5"> 5 </option>
+        <option value="5"> 5 (Strongly Agree)</option>
       </select>
       <br>
       <label>Question 4: I can sometimes play rough</label>
       <select id="four">
-        <option value="1"> 1 </option>
+        <option value="1"> 1 (Strongly Disagree)</option>
         <option value="2"> 2 </option>
         <option value="3"> 3 </option>
         <option value="4"> 4 </option>
-        <option value="5"> 5 </option>
+        <option value="5"> 5 (Strongly Agree)</option>
       </select>
       <br>
       <label>Question 5: I can be agressive if backed into the corner</label>
       <select id="five">
-        <option value="1"> 1 </option>
+        <option value="1"> 1 (Strongly Disagree)</option>
         <option value="2"> 2 </option>
         <option value="3"> 3 </option>
         <option value="4"> 4 </option>
-        <option value="5"> 5 </option>
+        <option value="5"> 5 (Strongly Agree)</option>
       </select>
       <br>
       <label>Question 6: I adapt easily to new places and situations</label>
       <select id="six">
-        <option value="1"> 1 </option>
+        <option value="1"> 1 (Strongly Disagree)</option>
         <option value="2"> 2 </option>
         <option value="3"> 3 </option>
         <option value="4"> 4 </option>
-        <option value="5"> 5 </option>
+        <option value="5"> 5 (Strongly Agree)</option>
       </select>
       <br>
       <label>Question 7: I love to play games like tug of war or fetch</label>
       <select id="seven">
-        <option value="1"> 1 </option>
+        <option value="1"> 1 (Strongly Disagree)</option>
         <option value="2"> 2 </option>
         <option value="3"> 3 </option>
         <option value="4"> 4 </option>
-        <option value="5"> 5 </option>
+        <option value="5"> 5 (Strongly Agree)</option>
       </select>
       <br>
       <label>Question 8: I don't like to share my toys</label>
       <select id="eight">
-        <option value="1"> 1 </option>
+        <option value="1"> 1 (Strongly Disagree)</option>
         <option value="2"> 2 </option>
         <option value="3"> 3 </option>
         <option value="4"> 4 </option>
-        <option value="5"> 5 </option>
+        <option value="5"> 5 (Strongly Agree)</option>
       </select>
       <br>
       <label>Question 9: I have a lot of energy</label>
       <select id="nine">
-        <option value="1"> 1 </option>
+        <option value="1"> 1 (Strongly Disagree)</option>
         <option value="2"> 2 </option>
         <option value="3"> 3 </option>
         <option value="4"> 4 </option>
-        <option value="5"> 5 </option>
+        <option value="5"> 5 (Strongly Agree)</option>
       </select>
       <br>
       <label>Question 10: I am affectionate, and love pets and cuddles</label>
       <select id="ten">
-        <option value="1"> 1 </option>
+        <option value="1"> 1 (Strongly Disagree)</option>
         <option value="2"> 2 </option>
         <option value="3"> 3 </option>
         <option value="4"> 4 </option>
-        <option value="5"> 5 </option>
+        <option value="5"> 5 (Strongly Agree)</option>
       </select>
       <br>
       <button type="submit" class="submit">Submit</button>
     </form>
   </div>
-  <div id="results">Results</div>
+  <!-- The Modal -->
+  <div id="results" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content container">
+      <p>We Found a Match! Meet <span id="matchName"></span>!</p>
+      <img id="matchImg" src="" alt="matching dog image">
+      <button type="button" name="button" class="closeButton">Close &times;</button>
+    </div>
+  </div>
 
   <a href='/friends'>Dog API</a>
 
@@ -131,19 +142,19 @@
 
       //grab the form elements
       var newDog = {
-        dogName: $("#dogName").val().trim(),
-        dogImg: $("#dogImg").val().trim(),
+        name: $("#dogName").val().trim(),
+        photo: $("#dogImg").val().trim(),
         scores: [$("#one").val(),
-                $("#two").val(),
-                $("#three").val(),
-                $("#four").val(),
-                $("#five").val(),
-                $("#six").val(),
-                $("#seven").val(),
-                $("#eight").val(),
-                $("#nine").val(),
-                $("#ten").val(),
-              ]
+          $("#two").val(),
+          $("#three").val(),
+          $("#four").val(),
+          $("#five").val(),
+          $("#six").val(),
+          $("#seven").val(),
+          $("#eight").val(),
+          $("#nine").val(),
+          $("#ten").val(),
+        ]
 
       };
       //to add answers to the newDog answers array, loop through each answer
@@ -151,15 +162,16 @@
 
       //Set up post api path and callback functions
       $.post("/api/friends", newDog).done(function(data) {
-          console.log(data);
-          $("#results").html('Dog Name: ' + data.name);
-            // $("#matchName").text(data.matchName);
-            // $('#matchImg').attr("src", data.matchImage);
-            // $("#resultsModal").modal('toggle');
-        });
-      //return data about best friend match
 
+        //return data about best friend match
+        $("#matchName").text(data.name);
+        $("#matchImg").attr("src", data.photo);
+        $("#results").attr("style", "display: block");
+      });
     });
+    $(".closeButton").on("click",function(){
+      $("#results").attr("style", "display: none");
+    })
   </script>
 </body>
 
