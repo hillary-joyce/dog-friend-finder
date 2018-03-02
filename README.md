@@ -16,4 +16,4 @@ Puppy Love runs on node and express. API requests are handled using AJAX and JSO
 - [CSS Skeleton](http://getskeleton.com/)
 - [npm - body-parser](https://www.npmjs.com/package/body-parser)
 
-Dog images [Designed by Freepik](<a href=")https://www.freepik.com/free-vector/cute-dog-breeds_803197.htm)
+Dog images [Designed by Freepik](https://www.freepik.com/free-vector/cute-dog-breeds_803197.htm)
